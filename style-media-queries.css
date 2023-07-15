@@ -1,0 +1,416 @@
+/*******************************************************
+ *
+ * Mobile styles and other media queries
+ *
+ *******************************************************/
+@media only screen and (max-width: 1440px) {
+	.hpFeaturedCommunities .hpFeaturedCommunities__list a .hpFeaturedCommunities__content h4{
+		font-size: 17px;
+	}
+
+
+	.footer .footerInfo.__office {
+		margin-left: 73px;
+	}
+		.footer .footerInfo ul li {
+			font-size: 12px;
+		}
+}
+
+@media only screen and (max-width: 1366px) {
+
+	.hp__listings .hplistings__list a:hover {
+		transform: scale(1.21);
+	}
+	.footer .footerNavigation ul li a{
+		font-size: 12px;
+	}
+}
+ 
+/* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */ 
+@media only screen and (max-width: 1199px) {
+
+	.default-title h2{
+		font-size: 60px;
+	}
+	.hero .quickSearch .qcFormRow:first-child {
+		width: 41%;
+	}
+
+	.hpWelcome .hpWelcome__wrap {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.hp__listings .__max_container {
+		padding: 0 50px;
+	}
+
+		.hp__listings .hplistings__list a .hplistings__content{
+			padding: 0 20px;
+		}
+			.hp__listings .hplistings__list a .hplistings__content p {
+				font-size: 10px;
+			}
+
+			.hp__listings .hplistings__list a .hplistings__content span{
+				font-size: 9px;
+			}
+	.hpOurMarketingPlan .hpOurMarketingPlan__wrap {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	
+
+	.hpProvenPerformance .hpProvenPerformance__lists li span{
+		font-size: 21px;
+	}
+	.hpProvenPerformance .hpProvenPerformance__lists li p{
+		font-size: 13px;
+	}
+	.hpFeaturedCommunities .hpFeaturedCommunities__list a .hpFeaturedCommunities__content h4 {
+		font-size: 14px;
+	}
+
+	.hpFeaturedCommunities .hpFeaturedCommunities__list a .hpFeaturedCommunities__content p{
+		font-size: 9px;
+		padding: 20px 0 0;
+	}
+
+	.footer .footerContainer {
+		padding: 0 50px;
+	}
+		.footer .footerNavigation ul li {
+			padding: 0 8px;
+		}
+			.footer .footerNavigation ul li a {
+			font-size: 9px;
+			}
+
+} 
+
+/* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
+@media only screen and (max-width: 991px) {
+	.pojo-a11y-toolbar-toggle {
+		display: none;
+	}
+	.default-title h2 {
+		font-size: 40px;
+	}
+		.default-title h2 span{
+			font-size: 16px;
+		}
+	.header{
+		background: #000;
+		position: relative;
+		z-index: 2;
+		padding: 100px 0 50px;
+	}
+		.header .logo{
+			width: 100%;
+		}
+			.header .logo {
+				width: 100%;
+				max-width: 100px;
+				margin: 0 auto;
+			}
+		.header .navigation{
+			display: none;
+		}
+
+
+	.hero .floatingSocialMedia{
+		display: none;
+	}
+
+	.hero .quickSearch{
+		position: relative;
+		left: 0;
+		bottom: 0;
+		background: #000;
+	}
+		.hero .quickSearch--wrap{
+			padding: 50px 0;
+		}
+
+		.hero .quickSearch .quickSearch--title{
+			display: none;
+		}
+			.hero .quickSearch .quicksearch--form{
+				position: relative;
+				left: 0;
+			}
+
+				.hero .quickSearch .quicksearch--form form{
+					flex-flow: column;
+					align-items: center;
+				}
+					.hero .quickSearch .quicksearch--form form .qcForm {
+						width: 100%;
+						margin-left: 1px;
+					}
+					.hero .quickSearch .qcFormRow{
+						width: 50%;
+					}
+						.hero .quickSearch .qcFormRow:first-child{
+							width: 100%;
+						}
+
+						.hero .quickSearch .qcFormRow select{
+							height: 50px;
+						}
+						.hero .quickSearch .qcFormRow.qcFormButton{
+							width: 100%;
+							text-align: center;
+							padding: 40px 0 0;
+							margin: 0;
+						}
+						.hero .quickSearch .qcFormRow.qcFormButton button{
+							margin: 0 auto;
+						}
+			.hero .quickSearch .quicksearch--form p{
+				text-align: center;
+				font-size: 12px;
+			}
+	.hpCta {
+		padding: 50px 0;
+	}
+		.hpCta .cta--lists{
+			flex-flow: column;
+			align-items: center;
+		}
+			.hpCta .cta--list{
+				width: 100%;
+				max-width: 350px;
+				margin: 10px 0;
+			}
+				.hpCta .cta--list:hover{
+					width: 100%;
+				}
+
+	.hpWelcome{
+		padding: 50px 0 0;
+	}
+		.hpWelcome .hpWelcome__wrap{
+			padding: 0 30px;
+			flex-flow: column;
+		}
+			.hpWelcome .hpWelcome__content{
+				width: 100%;
+			}
+
+			.hpWelcome .hpWelcome__image{
+				margin: 0 auto;
+				width: 100%;
+				max-width: 426px;
+
+			}
+
+	.hp__listings{
+		padding: 50px 0;
+	}
+	.hp__listings .hplistings__list a:hover{
+		transform: scale(1);
+	}
+		.hp__listings .hplistings__list a .hplistings__content h2{
+			font-size: 20px;
+		}
+			.hp__listings .hplistings__list a .hplistings__content p {
+				font-size: 12px;
+			}
+			.hp__listings .hplistings__list a .hplistings__content span{
+				font-size: 12px;
+			}
+
+	.hpOurMarketingPlan{
+		padding: 50px 0;
+	}
+		.hpOurMarketingPlan .hpOurMarketingPlan__wrap{
+			flex-flow: column;
+		}
+			.hpOurMarketingPlan .hpOurMarketingPlan__content{
+				width: 100%;
+			}
+
+			.hpOurMarketingPlan .hpOurMarketingPlan__image{
+				margin: 40px auto 0;
+				width: 100%;
+				max-width: 450px;
+			}
+
+	.hpProvenPerformance{
+		padding: 50px 0;
+	}
+		.hpProvenPerformance .hpProvenPerformance__lists li{
+			width: calc(100% / 2);
+			margin: 20px 0;
+		}
+			.hpProvenPerformance .hpProvenPerformance__lists li:nth-child(3)::after,
+			.hpProvenPerformance .hpProvenPerformance__lists li:nth-child(7)::after{
+				display: none;
+			}
+
+
+	.hpFeaturedCommunities{
+		padding: 50px 0;
+	}
+		.hpFeaturedCommunities .hpFeaturedCommunities__lists{
+			flex-flow: row wrap;
+		}
+			.hpFeaturedCommunities .hpFeaturedCommunities__list{
+				width: calc(100% / 2);
+			}
+				.hpFeaturedCommunities .hpFeaturedCommunities__list a .hpFeaturedCommunities__content h4 {
+					font-size: 18px;
+				}
+
+				.hpFeaturedCommunities .hpFeaturedCommunities__list a .hpFeaturedCommunities__content p {
+    				font-size: 14px;
+				}
+
+
+	.footer{
+		padding: 50px 0;
+	}
+		.footer .footerContainer.__bottom .__max_container{
+			padding: 0 30px;
+		}
+		.footer .footerContainer.__top {
+			flex-flow: column;
+		}
+			.footer .footerInfo.__logos {
+				max-width: 140px;
+				flex-shrink: 0;
+				margin: 20px auto;
+			}
+
+			.footer .footerInfo.__contact{
+				margin-left: 0;
+				width: 100%;
+				text-align: center;
+			}
+				.footer .footerInfo h2{
+					padding-top: 20px;
+				}
+					.footer .footerInfo ul{
+						padding-top: 10px;
+					}
+						.footer .footerInfo ul li {
+							font-size: 16px;
+						}
+			.footer .footerInfo.__office{
+				margin: 0;
+				width: 100%;
+				text-align: center;
+			}
+			.footer .footerInfo.__contactForm {
+				width: 100%;
+				margin: 49px auto;
+				max-width: 350px;
+				text-align: center;
+			}
+
+			.footer .footerNavigation{
+
+			}
+				.footer .footerNavigation ul{
+					flex-flow: column;
+				}
+					.footer .footerNavigation ul li{
+						padding: 8px 0;
+					}
+						.footer .footerNavigation ul li a{
+							font-size: 16px;
+						}
+			.footer .footerDisclaimer p{
+				font-size: 16px;
+			}
+			.footer .footerCopyright p{
+				font-size: 16px;
+			}
+	/* The following are used on inner pages. Please edit carefully. */
+
+	.inner {
+	    width: 100%;
+	}
+	#content-sidebar, #content-full {
+	    width: 100%;
+	}	
+	.outer{
+		width: 100%;
+		min-width: 100%;
+	}
+	#content-sidebar #content{
+		width: 100%;
+	}
+	
+} 
+
+/* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
+@media only screen and (max-width: 767px) {
+
+	.default-title.__large h2 {
+		font-size: 66px;
+	}
+
+
+	.default_pagination .default-button {
+		margin: 0 10px;
+	}
+	.default_pagination .default-button a span{
+		min-width: 140px;
+		font-size: 10px;
+	}
+
+		.default_pagination button.pagination--next span::after {
+			width: 22px;
+		}
+
+		.default_pagination button.pagination--prev span::before{
+			width: 22px;
+		}
+
+		.default_pagination button i{
+			font-size: 16px;
+		}
+	.hp__listings .__max_container {
+		padding: 0 30px;
+	}
+
+		.hp__listings .hpListings .splide__track{
+			padding: 0 !important;
+		}
+		.hp__listings .hplistings__list {
+			padding: 20px 0 0;
+		}
+
+
+	.hpOurMarketingPlan .hpOurMarketingPlan__wrap{
+		padding: 0 30px;
+	}
+
+	.hpProvenPerformance .hpProvenPerformance__lists li{
+		width: 100%;
+		padding: 30px 0;
+		margin: 0;
+	}
+		.hpProvenPerformance .hpProvenPerformance__lists li::after{
+			display: none !important;
+		}
+
+
+	.hpFeaturedCommunities .hpFeaturedCommunities__list{
+		width: 100%;
+		padding: 0 !important;
+		margin: 10px 0;
+	}
+    .ip-banner .container{
+        width: 100%;
+    }
+}
+
+/* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */ 
+@media only screen and (max-width: 480px) {
+
+}
+ 
